@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Minecraftia";
+  src: url("./fonts/MinecraftiaRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MinePlayer";
+  src: url("./fonts/mine_player.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(./img/815735.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box {
+  max-width: 700px;
+  margin: 190px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  background-image: url(./img/TFq416cSH_xzklKicvVq3dZHg4NXsbvFhdrHg4EL_z0.jpg);
+  background-size: cover;
+}
+.box__title span {
+  font-family: "MinePlayer";
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.box__title {
+  word-spacing: 20px;
+}
+.choises {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  height: 119px;
+}
+button img {
+  cursor: pointer;
+  background-color: transparent;
+  width: 120px;
+}
+.rock {
+  color: #807e7f;
+}
+.scissors {
+  color: #8c4237;
+}
+.paper {
+  color: #fdfdf1;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.result p {
+  font-family: "Minecraftia";
+  font-size: 25px;
+}
+.user__choice {
+}
+.computer__choice {
+}
+.final {
+}

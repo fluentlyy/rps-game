@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="box__title">
+        <span class="rock">rock</span> <span class="paper">paper</span>
+        <span class="scissors">scissors</span>
+      </h1>
+      <div class="choises">
+        <button onclick="playGame('Rock')">
+          <img src="./img/photo_2024-12-14_10-46-24.jpg" alt="" />
+        </button>
+        <button onclick="playGame('Scissors')">
+          <img src="./img/photo_2024-12-14_10-50-04.jpg" alt="" />
+        </button>
+        <button onclick="playGame('Paper')">
+          <img src="./img/photo_2024-12-14_10-52-26.jpg" alt="" />
+        </button>
+      </div>
+      <div class="result">
+        <p class="user__choice">Your choise:</p>
+        <p class="computer__choice">Computer choise:</p>
+        <p class="final">Result:</p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
